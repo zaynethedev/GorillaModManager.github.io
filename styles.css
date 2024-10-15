@@ -4,63 +4,66 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  
-  /* Navbar */
-  .navbar {
+}
+
+/* Navbar */
+.navbar {
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     text-decoration: underline;
-  }
-  
-  /* Hero Section */
-  .hero {
+}
+
+/* Hero Section */
+.hero {
     text-align: center;
     padding: 50px;
     background-color: #6200ea;
     color: white;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     background-color: #03dac6;
     color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
-  }
-  
-  .btn-primary:hover {
+}
+
+.btn-primary:hover {
     background-color: #018786;
-  }
-  
-  /* Mod Cards */
-  .mod-card {
+}
+
+/* Mod Cards */
+.mod-card {
     background-color: white;
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .mod-card img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  .btn-secondary {
+    text-align: center; /* Center-align text */
+}
+
+.mod-card img {
+    width: 350px; /* Set fixed width */
+    height: 200px; /* Set fixed height */
+    object-fit: cover; /* Crop the image to fit */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-secondary {
     background-color: #6200ea;
     color: white;
     padding: 10px;
@@ -68,14 +71,16 @@ body {
     display: inline-block;
     margin-top: 10px;
     border-radius: 5px;
-  }
-  
-  .btn-secondary:hover {
+    transition: background-color 0.3s linear, transform 0.3s ease; 
+}
+
+.btn-secondary:hover {
     background-color: #3700b3;
-  }
-  
-  /* Footer */
-  footer {
+    transform: translateY(-5px); 
+}
+
+/* Footer */
+footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
@@ -83,5 +88,4 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
+}
