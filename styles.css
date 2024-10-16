@@ -40,7 +40,7 @@ body {
     font-family: 'Poppins', sans-serif; /* Bold font for headings */
     font-size: 36px;  /* Larger heading size */
 }
- 
+
 .btn-primary {
     background-color: #03dac6;
     color: black;
@@ -58,7 +58,7 @@ body {
 
 /* Mod Cards */
 .mod-card {
-    background-color: #9e9e9ecc;
+    background-color: #9e9e9e;
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
