@@ -48,7 +48,7 @@ body {
 
 /* Mod Cards */
 .mod-card {
-    background-color: white;
+    background-color: #e2e2e2;
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
@@ -61,10 +61,16 @@ body {
     height: 200px; /* Set fixed height */
     object-fit: cover; /* Crop the image to fit */
     border-radius: 5px; /* Rounded corners */
+    transition: width 0.1s linear;
+}
+
+.mod-card img:hover {
+    width: 400px;
 }
 
 .btn-secondary {
     background-color: #6200ea;
+    
     color: white;
     padding: 10px;
     text-decoration: none;
