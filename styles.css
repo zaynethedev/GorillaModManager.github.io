@@ -1,9 +1,10 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;  /* Cleaner font for body text */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    line-height: 1.6; /* Improve readability */
 }
 
 /* Navbar */
@@ -12,17 +13,22 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
+    font-weight: 900;  /* Bold links for better visibility */
+    text-align: center;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .navbar a:hover {
     text-decoration: underline;
+    text-align: center;
 }
 
 /* Hero Section */
@@ -31,6 +37,8 @@ body {
     padding: 50px;
     background-color: #6200ea;
     color: white;
+    font-family: 'Poppins', sans-serif; /* Bold font for headings */
+    font-size: 36px;  /* Larger heading size */
 }
 
 .btn-primary {
@@ -40,6 +48,8 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    font-weight: 600;
+    width: 500;
 }
 
 .btn-primary:hover {
@@ -48,12 +58,13 @@ body {
 
 /* Mod Cards */
 .mod-card {
-    background-color: #e2e2e2;
+    background-color: #9e9e9ecc;
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center-align text */
+    font-size: 18px; /* Increase font size for readability */
 }
 
 .mod-card img {
@@ -66,18 +77,17 @@ body {
 
 .mod-card img:hover {
     width: 500px;
-    height: 250px;
 }
 
 .btn-secondary {
     background-color: #6200ea;
-    
     color: white;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     border-radius: 5px;
+    font-weight: 600;  /* Bold for emphasis */
     transition: transform 0.3s linear; /* Smooth transition */
 }
 
@@ -95,4 +105,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 500%; 
+    text-align: center;
 }
